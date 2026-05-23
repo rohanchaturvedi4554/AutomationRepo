@@ -60,7 +60,7 @@ public class AssignmentLocator {
           Click on the cart icon using XPath and print the current page URL.*/
 
         driver.findElement(By.xpath("//a[@class='shopping_cart_link']")).click();
-        System.out.println("Current Urll : " + driver.getCurrentUrl());
+        System.out.println("Current Urlll : " + driver.getCurrentUrl());
     }
 }
 
